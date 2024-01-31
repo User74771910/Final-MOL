@@ -208,9 +208,10 @@ a{
 .myButton{
     /* position: absolute; */
     background-color: red;
-    border-radius: 20px;
+    border-radius: black 20px;
     transition: all 0.2s ease;
     text-align: center;
+    color: black;
     width: 100px;
     height: 40px;
 }
