@@ -4,7 +4,7 @@
     padding: 0;
     border: 0;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     height: 100%;
     width: 100%;
 }
@@ -144,7 +144,7 @@ a{
     color: rgb(156, 135, 84);
 }
 #Body{
-    grid-row: 3/10;
+    grid-row: 3/8;
     grid-column: 1/11;
     background-color: black;
     color: white;
@@ -191,7 +191,7 @@ a{
     font-weight: bold;
 }
 #Footer{
-    grid-row: 10;
+    grid-row: 8;
     grid-column: 1/11;
     background-color: black;
     color: white;
